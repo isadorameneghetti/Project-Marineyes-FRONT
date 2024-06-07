@@ -5,8 +5,8 @@
     padding: 0 9%;
     width: 100%;
     box-sizing: border-box;
+    margin: auto;
 }
-
 .problem-text {
     flex: 1;
     margin-right: 5rem;
