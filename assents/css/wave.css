@@ -1,0 +1,266 @@
+.wave-container {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    margin-bottom: -100px; 
+}
+  
+.wave {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background-size: 1000px 100px;
+}
+
+/* Secondhome Wave */
+#wave-secondhome1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    background: url("images/waves/sky.png") var(--background-sky);
+    animation: animateWave 4s linear infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#wave-secondhome2 {
+    z-index: 999;
+    opacity: 0.6;
+    bottom: 10px;
+    background: url("images/waves/sky.png") var(--background-sky);
+    animation: animateWave2 4s linear infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#wave-secondhome3 {
+    z-index: 1000;
+    opacity: 0.5;
+    bottom: 15px;
+    background: url("images/waves/sky.png") var(--background-sky);
+    animation: animateWave 3s linear infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#wave-secondhome4 {
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    background: url("images/waves/sky.png") var(--background-sky);
+    animation: animateWave2 3s linear infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* Donate Wave */
+#wave-donate1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    background: url("images/waves/epipelagica.png") var(--background-sky2);
+    animation: animateWave 4s linear infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#wave-donate2 {
+    z-index: 999;
+    opacity: 0.6;
+    bottom: 10px;
+    background: url("images/waves/epipelagica.png") var(--background-sky2);
+    animation: animateWave2 4s linear infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#wave-donate3 {
+    z-index: 1000;
+    opacity: 0.5;
+    bottom: 15px;
+    background: url("images/waves/epipelagica.png") var(--background-sky2);
+    animation: animateWave 3s linear infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#wave-donate4 {
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    background: url("images/waves/epipelagica.png") var(--background-sky2);
+    animation: animateWave2 3s linear infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* Animals Wave */  
+#wave-animals1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    background: url("images/waves/mesopelagica.png") var(--background-epipelagica);
+    animation: animateWave 4s linear infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+  
+#wave-animals2 {
+    z-index: 999;
+    opacity: 0.6;
+    bottom: 10px;
+    background: url("images/waves/mesopelagica.png") var(--background-epipelagica);
+    animation: animateWave2 4s linear infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+  
+#wave-animals3 {
+    z-index: 1000;
+    opacity: 0.5;
+    bottom: 15px;
+    background: url("images/waves/mesopelagica.png") var(--background-epipelagica);
+    animation: animateWave 3s linear infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+  
+#wave-animals4 {
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    background: url("images/waves/mesopelagica.png") var(--background-epipelagica);
+    animation: animateWave2 3s linear infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* Curiosities Wave */
+#wave-curiosities1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    background: url("images/waves/batipelagica.png") var(--background-mesopelagica);
+    animation: animateWave 4s linear infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#wave-curiosities2 {
+    z-index: 999;
+    opacity: 0.6;
+    bottom: 10px;
+    background: url("images/waves/batipelagica.png") var(--background-mesopelagica);
+    animation: animateWave2 4s linear infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#wave-curiosities3 {
+    z-index: 1000;
+    opacity: 0.5;
+    bottom: 15px;
+    background: url("images/waves/batipelagica.png") var(--background-mesopelagica);
+    animation: animateWave 3s linear infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#wave-curiosities4 {
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    background: url("images/waves/batipelagica.png") var(--background-mesopelagica);
+    animation: animateWave2 3s linear infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* Contact Wave */
+#wave-contact1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    background: url("images/waves/abissopelagica.png") var(--background-batipelagica);
+    animation: animateWave 4s linear infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#wave-contact2 {
+    z-index: 999;
+    opacity: 0.6;
+    bottom: 10px;
+    background: url("images/waves/abissopelagica.png") var(--background-batipelagica);
+    animation: animateWave2 4s linear infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#wave-contact3 {
+    z-index: 1000;
+    opacity: 0.5;
+    bottom: 15px;
+    background: url("images/waves/abissopelagica.png") var(--background-batipelagica);
+    animation: animateWave 3s linear infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#wave-contact4 {
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    background: url("images/waves/abissopelagica.png") var(--background-batipelagica);
+    animation: animateWave2 3s linear infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+/* Footer Wave   */
+#wave-footer1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    background: url("images/waves/hadopelagica.png") var(--background-abissopelagica);
+    animation: animateWave 4s linear infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#wave-footer2 {
+    z-index: 999;
+    opacity: 0.6;
+    bottom: 10px;
+    background: url("images/waves/hadopelagica.png") var(--background-abissopelagica);
+    animation: animateWave2 4s linear infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#wave-footer3 {
+    z-index: 1000;
+    opacity: 0.5;
+    bottom: 15px;
+    background: url("images/waves/hadopelagica.png") var(--background-abissopelagica);
+    animation: animateWave 3s linear infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#wave-footer4 {
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    background: url("images/waves/hadopelagica.png") var(--background-abissopelagica);
+    animation: animateWave2 3s linear infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+  
+/* Animation */
+@keyframes animateWave {
+    0% {
+      background-position: 0px;
+    }
+    100% {
+      background-position: -1000px; 
+    }
+  }
+  
+  @keyframes animateWave2 {
+    0% {
+      background-position: -1000px;
+    }
+    100% {
+      background-position: 0px; 
+    }
+}
