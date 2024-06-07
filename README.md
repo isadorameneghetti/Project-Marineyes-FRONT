@@ -1,4 +1,4 @@
-# README do Website Marineyes
+# Website Marineyes
 
 Este repositório contém o código-fonte para o website Marineyes. Abaixo está uma visão geral dos arquivos e pastas incluídos neste projeto:
 
