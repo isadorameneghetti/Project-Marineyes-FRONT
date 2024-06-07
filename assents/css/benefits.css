@@ -33,3 +33,26 @@
     color: var(--text3);
     margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 768px) {
+    .benefits-container {
+        flex-direction: column; 
+        align-items: center;
+        padding: 0 5%;
+    }
+
+    .benefits-text {
+        margin-right: 0;
+        text-align: center; 
+    }
+
+    .benefits-text h1 {
+        font-size: 2.8rem; 
+        margin-bottom: 10px; 
+    }
+
+    .benefits-text p {
+        font-size: 1.2rem; 
+        margin-bottom: 15px; 
+    }
+}

@@ -1,0 +1,106 @@
+.row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col {
+    flex-basis: 25%;
+    padding: 10px;
+    margin-right: 15px; 
+    display: flex;
+    flex-direction: column; 
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 10px;
+    filter: grayscale(10);
+}
+
+.empresa {
+    width: 120px;
+    margin-bottom: 10px;
+    filter: grayscale(10);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white; 
+}
+
+.row h3 {
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+.col p {
+    margin-bottom: 10px; 
+}
+
+.contact-info {
+    margin-top: 140px; 
+}
+
+footer .social_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px; 
+    flex-wrap: wrap;
+}
+
+footer .social_icon li {
+    margin-right: 10px; 
+}
+
+footer .social_icon li a {
+    font-size: 2em;
+    color: white; 
+    display: inline-block;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 768px) {
+    .row {
+        width: 100%;
+    }
+
+    .col {
+        flex-basis: 100%;
+        margin-right: 0;
+        padding: 0 15px;
+        margin-bottom: 20px; 
+    }
+
+    .logo, .empresa {
+        width: 100px; 
+        margin-bottom: 5px; 
+    }
+
+    .contact-info {
+        margin-top: 40px;
+    }
+
+    footer .social_icon {
+        margin-top: 20px; 
+    }
+}

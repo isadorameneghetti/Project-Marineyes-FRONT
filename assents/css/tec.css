@@ -33,3 +33,18 @@
     color: var(--p-color);
     margin-bottom: 20px; 
 }
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+    .tecnology-container {
+        padding: 8% 5%; 
+    }
+
+    .tecnology-text h1 {
+        font-size: 2.8rem; 
+    }
+
+    .tecnology-text p {
+        font-size: 1.2rem; 
+    }
+}

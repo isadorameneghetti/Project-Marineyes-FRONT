@@ -46,3 +46,23 @@
     object-fit: cover;
     margin: 0 15px; 
 }
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+    .today-container {
+        padding: 8% 5%; 
+    }
+
+    .today-text h1 {
+        font-size: 2.2rem; 
+    }
+
+    .today-text p {
+        font-size: 1rem; 
+    }
+
+    .lastimage-container img {
+        width: 120px; 
+        height: 120px; 
+    }
+}

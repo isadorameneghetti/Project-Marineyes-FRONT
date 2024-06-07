@@ -115,12 +115,12 @@ main {
 /* Footer Section */
 footer {
     background: var(--background-hadopelagica);
-    display: flex;
-    flex-direction: column;
     width: 100%;
-    min-height: 50vh;
-    justify-content: center;
-    align-items: center;
+    bottom: 0;
+    color: white;
+    padding: 100px 0 30px;
+    font-size: 13px;
+    line-height: 20px;
 }
 
 /* Animations */

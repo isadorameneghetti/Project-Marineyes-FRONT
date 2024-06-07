@@ -32,3 +32,23 @@
     line-height: 1.3;
     color: var(--p-color);
 }
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+    .problem-container {
+        padding: 8% 5%;
+    }
+
+    .problem-text {
+        margin-right: 0; 
+        text-align: center;
+    }
+
+    .problem-text h1 {
+        font-size: 2.8rem; 
+    }
+
+    .problem-text p {
+        font-size: 1.2rem; 
+    }
+}
