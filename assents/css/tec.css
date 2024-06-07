@@ -1,0 +1,35 @@
+.tecnology-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 9%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.tecnology-text {
+    flex: 1;
+    margin-right: 5rem;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.tecnology-text .title-container {
+    margin-bottom: -10px; 
+}
+
+.tecnology-text h1 {
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--h1-color);
+    margin-bottom: 15px; 
+}
+
+.tecnology-text p {
+    font-size: 1.3rem;
+    line-height: 1.3;
+    color: var(--p-color);
+    margin-bottom: 20px; 
+}

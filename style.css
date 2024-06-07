@@ -28,11 +28,15 @@ main {
   
 :root {
     --header-text: #000000;
+    --text1: #000000;
+    --text2: #87aee0;
+    --text3: #ffffff;
+    --text4: #02131b;
     --header-background: #ffffff;
     --header-main-color: #87aee0;
     --scrollbar-main-color: #02131b;
     --scrollbar-second-color: #9ec2ef;
-    --background-sky: #d1d7df;
+    --background-sky: #eeeeee;
     --background-sky2: #cde0f8;
     --background-epipelagica: #9ec2ef;
     --background-mesopelagica: #216a8f;
@@ -42,18 +46,19 @@ main {
 }
   
 /* Home Section */
-#home {
+#problem {
     background: var(--background-sky);
     display: flex;
     flex-direction: column;
     width: 100%;
     min-height: 100vh;
-    justify-content: center;
     align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
 
-/* Secondhome Section */
-#secondhome {
+/* Tecnology Section */
+#tecnology {
     background: var(--background-sky2);
     display: flex;
     flex-direction: column;
@@ -63,8 +68,8 @@ main {
     align-items: center;
 }
   
-/* Donate Section */
-#donate {
+/* Objetive Section */
+#objetive {
     background: var(--background-epipelagica);
     display: flex;
     flex-direction: column;
@@ -75,7 +80,7 @@ main {
 }
   
 /* Animals Section */
-#animals {
+#person {
     background: var(--background-mesopelagica);
     display: flex;
     flex-direction: column;
@@ -86,7 +91,7 @@ main {
 }
   
 /* Curiousities Section */
-#curiosities {
+#benefits {
     background: var(--background-batipelagica);
     display: flex;
     flex-direction: column;
@@ -97,7 +102,7 @@ main {
 }
   
 /* Contact Section */
-#contact {
+#today {
     background: var(--background-abissopelagica);
     display: flex;
     flex-direction: column;

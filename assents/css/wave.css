@@ -14,8 +14,8 @@
     background-size: 1000px 100px;
 }
 
-/* Secondhome Wave */
-#wave-secondhome1 {
+/* Teclogogy Wave */
+#wave-tecnology1 {
     z-index: 1000;
     opacity: 1;
     bottom: 0;
@@ -24,7 +24,7 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-#wave-secondhome2 {
+#wave-tecnology2 {
     z-index: 999;
     opacity: 0.6;
     bottom: 10px;
@@ -33,7 +33,7 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-#wave-secondhome3 {
+#wave-tecnology3 {
     z-index: 1000;
     opacity: 0.5;
     bottom: 15px;
@@ -42,7 +42,7 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-#wave-secondhome4 {
+#wave-tecnology4 {
     z-index: 999;
     opacity: 0.7;
     bottom: 20px;
@@ -52,8 +52,8 @@
     animation-direction: alternate;
 }
 
-/* Donate Wave */
-#wave-donate1 {
+/* Objetive Wave */
+#wave-objetive1 {
     z-index: 1000;
     opacity: 1;
     bottom: 0;
@@ -62,7 +62,7 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-#wave-donate2 {
+#wave-objetive2 {
     z-index: 999;
     opacity: 0.6;
     bottom: 10px;
@@ -71,7 +71,7 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-#wave-donate3 {
+#wave-objetive3 {
     z-index: 1000;
     opacity: 0.5;
     bottom: 15px;
@@ -80,7 +80,7 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-#wave-donate4 {
+#wave-objetive4 {
     z-index: 999;
     opacity: 0.7;
     bottom: 20px;
@@ -90,8 +90,8 @@
     animation-direction: alternate;
 }
 
-/* Animals Wave */  
-#wave-animals1 {
+/* Person Wave */  
+#wave-person1 {
     z-index: 1000;
     opacity: 1;
     bottom: 0;
@@ -101,7 +101,7 @@
     animation-direction: alternate;
 }
   
-#wave-animals2 {
+#wave-person2 {
     z-index: 999;
     opacity: 0.6;
     bottom: 10px;
@@ -111,7 +111,7 @@
     animation-direction: alternate;
 }
   
-#wave-animals3 {
+#wave-person3 {
     z-index: 1000;
     opacity: 0.5;
     bottom: 15px;
@@ -121,7 +121,7 @@
     animation-direction: alternate;
 }
   
-#wave-animals4 {
+#wave-person4 {
     z-index: 999;
     opacity: 0.7;
     bottom: 20px;
@@ -131,8 +131,8 @@
     animation-direction: alternate;
 }
 
-/* Curiosities Wave */
-#wave-curiosities1 {
+/* Benefits Wave */
+#wave-benefits1 {
     z-index: 1000;
     opacity: 1;
     bottom: 0;
@@ -141,7 +141,7 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-#wave-curiosities2 {
+#wave-benefits2 {
     z-index: 999;
     opacity: 0.6;
     bottom: 10px;
@@ -150,7 +150,7 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-#wave-curiosities3 {
+#wave-benefits3 {
     z-index: 1000;
     opacity: 0.5;
     bottom: 15px;
@@ -159,7 +159,7 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-#wave-curiosities4 {
+#wave-benefits4 {
     z-index: 999;
     opacity: 0.7;
     bottom: 20px;
@@ -169,8 +169,8 @@
     animation-direction: alternate;
 }
 
-/* Contact Wave */
-#wave-contact1 {
+/* Today Wave */
+#wave-today1 {
     z-index: 1000;
     opacity: 1;
     bottom: 0;
@@ -179,7 +179,7 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-#wave-contact2 {
+#wave-today2 {
     z-index: 999;
     opacity: 0.6;
     bottom: 10px;
@@ -188,7 +188,7 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-#wave-contact3 {
+#wave-today3 {
     z-index: 1000;
     opacity: 0.5;
     bottom: 15px;
@@ -197,7 +197,7 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-#wave-contact4 {
+#wave-today4 {
     z-index: 999;
     opacity: 0.7;
     bottom: 20px;
